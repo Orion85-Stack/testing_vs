@@ -5,3 +5,7 @@ data = {
     "package": {"a": 5, "b": 100, "data": 1000},
     "list": [1, 2, 3, 4, 5],
 }
+
+print(data["hey"])
+print(data["package"]["a"])
+print(data["list"][0])
